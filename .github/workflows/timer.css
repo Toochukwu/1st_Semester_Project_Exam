@@ -1,0 +1,68 @@
+/*Stopwatch CSS*/
+body {
+  margin: 0;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #A47DAB;
+  font-family: 'segoe ui', Arial, monospace;
+  color: yellow;
+  padding: 10px;
+}
+
+.stopwatch {
+  text-align: center;
+  width: 100%;
+}
+
+/* Timer display styling */
+#display {
+  font-size: 80px;
+  background: GOLD;
+  color: VIOLET;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* General button styling */
+button {
+  min-width: 100px;
+  padding: 12px;
+  font-size: 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+/* Toggle button (Start/Stop) */
+#clockstart {
+  background: green;
+}
+
+#stop {
+  background: red; 
+}
+
+/* Reset button */
+#reset {
+  background: purple;
+  
+}
+
+/* Hover effect */
+button:hover {
+  opacity: 0.5;
+}
